@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Form</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Form</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="layout.html">Go to Layout</a></li>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>กรอกข้อมูล</h1>
+    <form>
+      <label>ชื่อ : </label>
+      <input type="text" required>
+      <br><label>email : </label>
+      <input type="email">
+      <br><label>password : </label>
+      <input type="password">
+      <br><label>วัน/เดือน/ปี : </label>
+      <input type="date">
+      <br><label>เวลาตกฟาก : </label>
+      <input type="time">
+      <br><label>น้ำหนัก (กก.) : </label>
+      <input type="number" min="30" max="300">
+      <br><label>ส่วนสูง (ซม.) : </label>
+      <input type="number" min="50" max="250">
+      <br><label>เบอร์โทร : </label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      <br><label>link facebook : </label>
+      <input type="url">
+      <br><label>แนบรูปถ่าย หน้าตรง : </label>
+      <input type="file">
+      <br><label>สีที่ชอบ : </label>
+      <input type="color"><br>
+
+      <br><label>ระบุสาขาวิชา</label><br>
+      <input type="radio" name="major">
+      <label> : IT</label><br>
+      <input type="radio" name="major">
+      <label> : ITI</label><br>
+      <input type="radio" name="major">
+      <label> : INE</label><br>
+      <input type="radio" name="major">
+      <label> : INET</label><br>
+
+      <br><label>วิชาที่ชอบ</label><br>
+      <input type="checkbox" name="sub1" value="COMPRO">
+      <label> : COMPRO</label><br>
+      <input type="checkbox" name="sub2" value="INTRO">
+      <label> : INTRO</label><br>
+      <input type="checkbox" name="sub2" value="ENGLISH">
+      <label> : ENGLISH</label><br>
+ 
+
+      <!--
+      <br><input type="button" value="ส่งข้อมูล">
+      <input type="button" value="ยกเลิก">
+      -->
+      <br><input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </form>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
