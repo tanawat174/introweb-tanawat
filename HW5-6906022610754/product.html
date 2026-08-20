@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/gridstyle.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1"><img src="images/header.jpg" alt="" width="100%"></div>
+        <div class="item2">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+        </div>
+        <div class="item3">
+            <h3>Our Catalog</h3>
+            <h5>Browse products and details below</h5>
+            <img src="images/product1.jpg" alt="" class="img">
+        </div>
+        <div class="item4">
+            <h4>สมัครสมาชิก</h4>
+            <h5>ชื่อ</h5>
+            <input type="text" placeholder="ชื่อจริง" required id="input"><br>
+            <h5>นามสกุล</h5>
+            <input type="text" placeholder="นามสกุล" required id="input"><br>
+            <h5>อีเมล</h5>
+            <input type="email" placeholder="example@domain.com" id="input" required><br>
+            <h5>รหัสผ่าน</h5>
+            <input type="password" placeholder="อย่างน้อย 8 ตัวอักษร" id="input" required><br>
+           <h5>ยืนยันรหัสผ่าน</h5>
+            <input type="password" placeholder="ยืนยันรหัสผ่าน" id="input" required><br>
+            <h5>เบอร์โทรศัพท์</h5>
+            <input type="tel" id="input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="083-xxx-xxxx"><br>
+            <br>
+            <label>เพศ</label><br>
+            <input type="radio"><label>ชาย</label><br>
+            <input type="radio"><label></label>หญิง<br>
+            <input type="radio"><label>ไม่ระบุ</label><br>
+            <br>
+            <input type="checkbox"><label>รับข่าวสาร</label>
+            <input type="checkbox"><label>โปรโมชั่น</label>
+            <input type="checkbox"><label>กิจกรรม</label>
+            <br>
+            <h5>ประเภทสมาชิก</h5>
+            <select name="type" id="input">
+                <option value="NORMAL">NORMAL</option>
+                <option value="VIP">VIP</option>
+                <option value="VVIP">VVIP</option>
+            </select>
+            <br>
+            <input type="checkbox" required><label>ยอมรับข้อกำหนดและเงื่อนไข</label><br>
+            <input type="submit" value="สมัครสมาชิก"><br>
+            <h6>เราจะเก็บข้อมูลของคุณเป็นความลับ</h6>
+        </div>
+        <div class="item5">
+            <h3>Product Name</h3>
+            <h5>Short description,price and actions (add to cart,view details)</h5>
+            <img src="images/product2.jpg" alt="" class="img">
+        </div>
+        <div class="item6"><img src="images/footer.jpg" alt="" width="100%"></div> 
+    </div>
+</body>
+</html
